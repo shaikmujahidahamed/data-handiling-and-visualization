@@ -1,0 +1,15 @@
+# Read CSV
+data <- read.csv("data.csv")
+
+# Convert date
+data$Date <- as.Date(data$Date)
+
+# Average calculation
+avg <- aggregate(Score ~ Month, data, mean)
+
+print(avg)
+
+# Line chart
+plot(avg$Month, avg$Score, type="o",
+     col="blue",
+     main="Average Score Trend")

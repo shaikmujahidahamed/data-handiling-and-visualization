@@ -1,0 +1,8 @@
+age <- c(25,30,35,28,40)
+
+hist(age,
+     col="skyblue",
+     border="black",
+     main="Age Distribution",
+     xlab="Customer Age",
+     ylab="Frequency")

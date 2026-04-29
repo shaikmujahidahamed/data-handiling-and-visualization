@@ -1,0 +1,8 @@
+satisfaction <- c(4,5,3,4,5)
+
+freq <- table(satisfaction)
+
+pie(freq,
+    col=c("red","blue","green"),
+    labels=paste(names(freq), freq),
+    main="Customer Satisfaction Levels")

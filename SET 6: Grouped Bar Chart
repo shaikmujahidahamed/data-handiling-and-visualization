@@ -1,0 +1,13 @@
+sales_data <- matrix(c(2000,2200,2400,
+                       1500,1800,1600,
+                       1200,1400,1100),
+                     nrow=3, byrow=TRUE)
+
+colnames(sales_data) <- c("Jan","Feb","Mar")
+rownames(sales_data) <- c("A","B","C")
+
+barplot(sales_data,
+        beside=TRUE,
+        col=c("red","blue","green"),
+        legend=rownames(sales_data),
+        main="Quarter Sales Comparison")

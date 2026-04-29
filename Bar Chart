@@ -1,0 +1,11 @@
+products <- c("Product A","Product B","Product C")
+values <- c(30000,25000,20000)
+
+barplot(values,
+        names.arg=products,
+        col=c("green","orange","blue"),
+        xlab="Products",
+        ylab="Sales",
+        main="Top Selling Products")
+
+grid()

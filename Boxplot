@@ -1,6 +1,0 @@
-scores <- c(78,85,65,92,70,88)
-
-boxplot(scores,
-        col="orange",
-        main="Quiz Score Distribution",
-        ylab="Scores")

@@ -1,5 +1,0 @@
-math <- c(62,80,55,90)
-hist(math)
-
-study <- c(2,3.5,1.5,4)
-plot(study, math)

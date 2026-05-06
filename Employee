@@ -1,2 +1,0 @@
-dept <- c("Sales","HR","Marketing")
-barplot(table(dept))

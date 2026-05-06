@@ -1,9 +1,0 @@
-dept <- c("Sales","HR","Marketing","Sales","HR")
-
-table_dept <- table(dept)
-
-barplot(table_dept,
-        col="purple",
-        main="Employees per Department",
-        xlab="Department",
-        ylab="Count")
